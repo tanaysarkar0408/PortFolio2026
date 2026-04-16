@@ -25,10 +25,3 @@ A lightweight, stunning, and highly performant personal portfolio designed to em
    npm run dev
    ```
 4. Open the displayed local development URL (usually `http://localhost:5173`) in your browser.
-
-## ☁️ Deployment
-This project is fully compatible with platform hosting solutions (like Vercel, Netlify, or GitHub Pages). 
-
-1. Ensure your code is hosted on GitHub.
-2. Link the repository to your hosting provider.
-3. Configure the build settings as a typical Vite environment (`npm run build`).
