@@ -1,16 +1,34 @@
-# React + Vite
+# Tanay Sarkar's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight, stunning, and highly performant personal portfolio designed to emulate the classic, minimalistic "Old Google" interface.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- **Classic UI Layout:** Mirrors the vintage Google homepage design with interactive "Search" capabilities.
+- **Dynamic Results Page:** Your professional experience, projects, skills, and education magically morph into styled "search results."
+- **Animated Interactions:** Uses `emilkowalski/skill` insights to feature perfectly-timed staggered CSS animations and hover micro-animations.
+- **Smart Text Measurement:** Integrates `@chenglou/pretext` for ultra-fast, dynamic line truncation and visual clamping without painful browser layout reflows!
+- **Smooth Navigation:** Search specifically for keywords (e.g., "skills", "experience") and watch the page elegantly scroll down and highlight exactly what you're looking for.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
+- Frontend: **React.js** + **Vite**
+- Styling: **Vanilla CSS**
+- Icons: **lucide-react**
 
-## React Compiler
+## 💻 Local Setup
+1. **Clone the repository.**
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+3. **Run the local development server:**
+   ```bash
+   npm run dev
+   ```
+4. Open the displayed local development URL (usually `http://localhost:5173`) in your browser.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ☁️ Deployment
+This project is fully compatible with platform hosting solutions (like Vercel, Netlify, or GitHub Pages). 
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Ensure your code is hosted on GitHub.
+2. Link the repository to your hosting provider.
+3. Configure the build settings as a typical Vite environment (`npm run build`).
